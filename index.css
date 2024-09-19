@@ -1,0 +1,54 @@
+body {
+    background-image: url("pomodoroTimer.jpg");
+    background-size: cover;
+    font-family: 'Montserrat','Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+
+.container {
+    background: white;
+    max-width: 80%;
+    margin: auto;
+    border-radius: 10px;
+    padding: 10px;
+        box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+
+}
+
+h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+}
+
+#increment-btn {
+    background: #e63d1f;
+}
+
+#save-btn {
+    background: #139d42;
+}
+
+#save-el {
+    font-weight: bold;
+}
+
